@@ -26,9 +26,9 @@ How To Run This
 4. grunt tasks
 
         grunt # <-- default aka nothing passed in cleans repo
-        build # <-- builds locally to dist/ folder
-        serve # <-- starts a local server for you after building
-        dist # <-- runs build task and then uploads to amazon S3. requires aws-keys.json
+        grunt build # <-- builds locally to dist/ folder
+        grunt serve # <-- starts a local server for you after building
+        grunt dist # <-- runs build task and then uploads to amazon S3. requires aws-keys.json
 
 
     
