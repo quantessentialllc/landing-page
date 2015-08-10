@@ -105,6 +105,33 @@ module.exports = function (grunt) {
                     }
                 ]
             }
+        },
+        less: {
+            development: {
+                options: {
+                    paths: ["less"]
+                },
+                files: {
+                    "less/grayscale.css": "less/grayscale.less"
+                }
+            }
+            //,
+            //production: {
+            //    options: {
+            //        paths: ["assets/css"],
+            //        plugins: [
+            //            new require('less-plugin-autoprefix')({browsers: ["last 2 versions"]}),
+            //            new require('less-plugin-clean-css')(cleanCssOptions)
+            //        ],
+            //        modifyVars: {
+            //            imgPath: '"http://mycdn.com/path/to/images"',
+            //            bgColor: 'red'
+            //        }
+            //    },
+            //    files: {
+            //        "path/to/result.css": "path/to/source.less"
+            //    }
+            //}
         }
     });
 
@@ -116,6 +143,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-usemin');
     grunt.loadNpmTasks('grunt-filerev');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-aws-s3');
     grunt.loadNpmTasks('grunt-contrib-compress');
@@ -141,5 +169,7 @@ module.exports = function (grunt) {
         , 'aws_s3:clean_production'
         , 'aws_s3:production'
     ]);
+
+    grunt.registerTask('play',['less'])
 
 };

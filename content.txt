@@ -1,0 +1,52 @@
+
+    <!--
+    Jane Street is a quantitative trading firm with a unique focus on technology and collaborative problem solving.
+    Quantitative Trading and Investment Strategies
+    A leading proprietary trading firm based in Chicago, Illinois
+    We don't just trade the market. We make the market.
+    Different businesses. A wealth of opportunities.
+    Taking responsibility for others as well as ourselves
+    Technology and Quantitative Ingenuity are at Our Core.
+    Tech Square Trading (TST) is a quantitative investment firm, located in Kendall Square, Cambridge. We were founded in 2011.
+    A proven leader among the world’s top electronic market-making firms, Allston Trading provides liquidity in global energy, commodity and financial futures markets.
+    Superior Strategy + Elite Technology
+    Hudson River Trading is first and foremost a math and technology company.
+
+    A quantitative investment firm that uses superior technology to create opportunities through collaborative problem solving
+    Creating opportunities through superior technology and collaborative problem solving
+    Quantitative investment firm focuses on problem solving
+    Enabled through Powered by Driven by
+    -->
+
+    <!--
+    Tower Research Capital LLC is a computerized trading firm headquartered in New York City with major offices around the world. Founded in 1998 by Mark Gorton, Tower is an innovator and a leader in the field of high frequency trading. Tower and its affiliates trade multiple asset classes on over 100 venues worldwide.
+Tower and its subsidiaries employ over 400 people worldwide, including over 200 trading team members, 70 developers, and 45 systems administrators.
+
+    Founded in 2002, Belvedere Trading is a leading proprietary trading firm. We specialize in equity index and commodity derivatives. Belvedere Trading’s employees act as market makers, ensuring liquidity by laying two sided markets to help provide an orderly market place in the products we trade. We trade electronically from our headquarters in downtown Chicago, and have traders on the floors of the following exchanges: Chicago Board Options Exchange (CBOE) and CME Group which includes the Chicago Mercantile Exchange (CME), Chicago Board of Trade (CBOT), New York Mercantile Exchange (NYMEX), and the Commodity Exchange (COMEX).
+
+    Akuna Capital was founded in the summer of 2011 with only five employees, but with ambitions big enough to choose an office large enough for a hundred. Just three years later, we’ve surpassed capacity in our Chicago Loop office. The space that was once a bit bare and echo-y to start is now bustling with activity, and we’ve expanded onto an additional floor in our Chicago building and 3 additional offices across the US and China, with more international expansion sure to come.
+Even though we’ve grown significantly from small (but determined) beginnings, we proudly retain the spirit of a smaller, entrepreneurial start-up.
+
+    AQR is a global investment management firm built at the intersection of financial theory and practical application. We strive to deliver superior, long-term results for our clients by seeking to filter out market noise to identify and isolate what matters most, and by developing ideas that stand up to rigorous testing. Underpinning this philosophy is an unrelenting commitment to excellence in technology — powering our insights and analysis. This unique combination has made us leaders in alternative and traditional strategies since 1998.
+AQR takes a systematic, research-driven approach, applying quantitative tools to process fundamental information and manage risk. Our clients include institutional investors, such as pension funds, insurance companies, endowments, foundations and sovereign wealth funds, as well as financial advisors.
+
+    Located in the historic Chicago Board of Trade Building, PEAK6 is redefining what it means to be an investment firm. We’re driven to see solutions others don’t — and capitalize on opportunities others miss. We operate with a focused, entrepreneurial drive and push ourselves to think differently. This ambitious, visionary approach has helped us become the diverse range of successful businesses we are today.
+
+    3Red is a prop trading start-up with offices in Chicago and New York. We leverage technology and math to implement competitive trading strategies while managing risk and responding to dynamic market conditions.
+What sets us apart from other businesses is that adding value is based on the work you do and not your ability to climb the corporate political ladder. We have no products, clients, or customers. Everyone is here because they love the work, those they work with, and have a passion for markets. Our people are hired for their talents and are recognized for their individual contributions that are building a trading company.
+
+    Located in the heart of Chicago’s financial district, Spot Trading is a technology-focused proprietary trading firm.  Our expertise in pricing multiple asset classes is complemented by a robust infrastructure to execute trades efficiently and our strength in managing risk.  Spot excels at both the art—the fundamental analysis—and the science—the quantitative analysis—of trading. We push ourselves to excel, and judge our efforts on the innovation of our trading models, the speed and reliability of our systems, and the effectiveness of our collaborative culture. Some of the many ways we differentiate ourselves include:
+Integrated trading strategy rooted in collaboration across a variety of disciplines
+Culture of risk management
+Focus on long term stability, building enterprise value
+Technology leader with state of the art infrastructure
+Spot continues to respond to opportunities in the marketplace. Through our success in multiple derivative markets, continued focus on risk management, and the constant evolution of our technology capabilities, we continue to create more opportunities for our people and business partners than ever before.
+
+    At HRT we are mathematicians, computer scientists, statisticians, physicists and engineers. We focus on hiring brilliant minds in disciplines that are highly quantitative, analytical, research-oriented and demand excellent programming skills. It is our mission to use advances in data mining techniques and technology for HRT's continued success, and to leverage this success to make markets more transparent and efficient.
+
+
+    Located in the heart of Silicon Valley, Quantessential Investments is a technology focused and data driven proprietary trading firm. We are statisticians, computer scientists, and engineers that leverage math and computing power to implement competitive trading strategies.  Our dynamic execution system responds and reacts to any changes that happen in markets in real time.
+
+    We push for innovation at our core to develop strategies that maximize our profits while managing risk. From our success in derivative markets, we constantly test and build robust architecture that will respond to the ever changing domestic and international economy. We focus on hiring brilliant minds in disciplines that are highly analytical, quantitative, research-oriented and demand excellent programming principals.
+    -->
+    <!-- About Section -->
