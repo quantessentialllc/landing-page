@@ -12,16 +12,23 @@ This repo builds the landing page for Quantessential, LLC. This was based off of
 How To Run This
 
 1. install npm and node
-    brew install node
+
+        brew install node
+    
 2. install grunt-cli
-    npm install -g grunt-cli
+
+        npm install -g grunt-cli
+    
 3. install dependencies
-    npm install
+
+        npm install
+    
 4. grunt tasks
-    default <-- aka nothing passed in cleans repo
-    build <-- builds locally to dist/ folder
-    serve <-- starts a local server for you after building
-    dist <-- runs build task and then uploads to amazon S3. requires aws-keys.json
+
+        grunt # <-- default aka nothing passed in cleans repo
+        build # <-- builds locally to dist/ folder
+        serve # <-- starts a local server for you after building
+        dist # <-- runs build task and then uploads to amazon S3. requires aws-keys.json
 
 
     
