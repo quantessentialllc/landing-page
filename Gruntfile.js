@@ -112,7 +112,7 @@ module.exports = function (grunt) {
                     paths: ["less"]
                 },
                 files: {
-                    "less/grayscale.css": "less/grayscale.less"
+                    "css/app.css": "less/app.less"
                 }
             }
         }
@@ -136,6 +136,7 @@ module.exports = function (grunt) {
 
     // Build Task
     grunt.registerTask('build', ['clean:before'
+        , 'less'
         , 'useminPrepare'
         , 'concat:generated'
         , 'cssmin:generated'
