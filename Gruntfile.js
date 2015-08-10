@@ -9,7 +9,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,                  // Enable dynamic expansion
                     cwd: 'img/',                   // Src matches are relative to this path
-                    src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+                    src: ['**/*.{png,jpg,gif,ico,xml}'],   // Actual patterns to match
                     dest: 'dist/img/'                  // Destination path prefix
                 }]
             }
@@ -44,6 +44,11 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,
+                        src: ['favicon.ico'],
+                        dest: 'dist/'
+                    },
+                    {
+                        expand: true,
                         cwd: 'font-awesome',
                         src: ['fonts/**'],
                         dest: 'dist/'
@@ -68,11 +73,11 @@ module.exports = function (grunt) {
         },
         aws_s3: {
             options: {
-                accessKeyId: '<%= aws.AWSAccessKeyId %>', // Use the variables
-                secretAccessKey: '<%= aws.AWSSecretKey %>', // You can also use env variables
+                accessKeyId: '<%= aws.AWSAccessKeyId %>',
+                secretAccessKey: '<%= aws.AWSSecretKey %>',
                 region: 'us-west-2',
-                uploadConcurrency: 5, // 5 simultaneous uploads
-                downloadConcurrency: 5 // 5 simultaneous downloads
+                uploadConcurrency: 5,
+                downloadConcurrency: 5
             },
             production: {
                 options: {
@@ -85,18 +90,13 @@ module.exports = function (grunt) {
                         src: ['**'],
                         dest: '/'
                     }
-                    //,
-                    //{expand: true, cwd: 'assets/prod/large', src: ['**'], dest: 'assets/large/', stream: true}, // enable stream to allow large files
-                    //{expand: true, cwd: 'assets/prod/', src: ['**'], dest: 'assets/', params: {CacheControl: '2000'}},
-                    //// CacheControl only applied to the assets folder
-                    // LICENCE inside that folder will have ContentType equal to 'text/plain'
                 ]
             }
             ,
             clean_production: {
                 options: {
                     bucket: 'quantessential.io',
-                    debug: false // Doesn't actually delete but shows log
+                    debug: false
                 },
                 files: [
                     {
@@ -115,23 +115,6 @@ module.exports = function (grunt) {
                     "less/grayscale.css": "less/grayscale.less"
                 }
             }
-            //,
-            //production: {
-            //    options: {
-            //        paths: ["assets/css"],
-            //        plugins: [
-            //            new require('less-plugin-autoprefix')({browsers: ["last 2 versions"]}),
-            //            new require('less-plugin-clean-css')(cleanCssOptions)
-            //        ],
-            //        modifyVars: {
-            //            imgPath: '"http://mycdn.com/path/to/images"',
-            //            bgColor: 'red'
-            //        }
-            //    },
-            //    files: {
-            //        "path/to/result.css": "path/to/source.less"
-            //    }
-            //}
         }
     });
 
